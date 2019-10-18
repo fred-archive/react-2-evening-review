@@ -1,11 +1,31 @@
+.outer-app{
+  text-align: center;
+  background-color: black;
+  
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+}
+button {
+  height: 5vh;
+  width: 10vw;
+  color: white;
+  background-color: blueviolet;
+  border: 2px solid blue;
+}
 .App {
   text-align: center;
+  background-color: gray;
+  /* height: 100vh; */
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
-
 .App-logo {
   height: 40vmin;
 }
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -16,7 +36,33 @@
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
 .App-link {
   color: #09d3ac;
+}
+.people-card {
+  height: 200px;
+  width: 400px;
+  background-color: aquamarine;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  margin: 20px;
+  overflow: scroll;
+}
+.people-card img {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%
+}
+.people-card h1 {
+  margin: 0;
+}
+.people-card h2 {
+  margin: 0;
+}
+.people-card h3 {
+  margin: 0;
+}
+.people-card h4 {
+  margin: 0;
 }
